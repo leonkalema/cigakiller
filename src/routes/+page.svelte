@@ -25,10 +25,10 @@
     }, 5000);
   }
 </script>
-
+ <p>this one got me late for a meeting on game over you wont see your points u need to refresh the browser to play again. Happy friday</p>
 {#if !gameRunning && !showGameOver}
   <button on:click={startGame}>Start Game</button>
-  <p>this one got me late for a meeting on game over you wont see your points u need to refresh.</p>
+ 
 {/if}
 
 {#if gameRunning}
