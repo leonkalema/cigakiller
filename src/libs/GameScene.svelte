@@ -35,7 +35,7 @@
     });
 
     function preload() {
-      this.load.image('cigarette', 'https://cdn-icons-png.flaticon.com/512/532/532461.png');
+      this.load.image('cigarette', './cig.png');
       this.load.image('litCigarette', 'https://cdn-icons-png.flaticon.com/512/532/532461.png');
     }
 
